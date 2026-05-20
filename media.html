@@ -6,8 +6,15 @@
   <title>Media | BOOKED</title>
 
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
 
     body {
       font-family: Inter, Arial, sans-serif;
@@ -27,7 +34,10 @@
       z-index: -1;
     }
 
-    a { color: inherit; text-decoration: none; }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
 
     .container {
       max-width: 1200px;
@@ -48,10 +58,23 @@
       text-align: center;
     }
 
-    .btn-primary { background: #fff; color: #000; }
-    .btn-primary:hover { background: #e4e4e7; }
-    .btn-outline { background: rgba(255,255,255,.05); color: #fff; }
-    .btn-outline:hover { background: rgba(255,255,255,.1); }
+    .btn-primary {
+      background: #fff;
+      color: #000;
+    }
+
+    .btn-primary:hover {
+      background: #e4e4e7;
+    }
+
+    .btn-outline {
+      background: rgba(255,255,255,.05);
+      color: #fff;
+    }
+
+    .btn-outline:hover {
+      background: rgba(255,255,255,.1);
+    }
 
     header {
       display: flex;
@@ -75,7 +98,9 @@
       font-size: 14px;
     }
 
-    nav a:hover { color: #fff; }
+    nav a:hover {
+      color: #fff;
+    }
 
     .page-hero {
       max-width: 1200px;
@@ -108,7 +133,9 @@
       font-size: 18px;
     }
 
-    section { padding: 40px 0 90px; }
+    section {
+      padding: 40px 0 90px;
+    }
 
     .video-grid {
       display: grid;
@@ -126,7 +153,6 @@
     }
 
     .video-frame {
-      position: relative;
       width: 100%;
       aspect-ratio: 9 / 16;
       overflow: hidden;
@@ -188,14 +214,27 @@
     }
 
     @media (max-width: 900px) {
-      nav { display: none; }
-      .video-grid { grid-template-columns: 1fr; }
+      nav {
+        display: none;
+      }
+
+      .video-grid {
+        grid-template-columns: 1fr;
+      }
     }
 
     @media (max-width: 560px) {
-      header .btn { display: none; }
-      .btn { width: 100%; }
-      section { padding-bottom: 64px; }
+      header .btn {
+        display: none;
+      }
+
+      .btn {
+        width: 100%;
+      }
+
+      section {
+        padding-bottom: 64px;
+      }
     }
   </style>
 </head>
@@ -218,7 +257,9 @@
   <main>
     <div class="page-hero">
       <div class="kicker">Media Portfolio</div>
+
       <h1>Recent Video Work.</h1>
+
       <p>
         A curated collection of vertical content built for Reels, TikTok, Shorts, and paid social. Every video is designed to make the brand look premium and move viewers toward action.
       </p>
@@ -231,7 +272,7 @@
           <div class="video-card">
             <div class="video-frame">
               <video controls playsinline preload="metadata">
-                <source src="./media/video-1.mp4" type="video/mp4">
+                <source src="https://github.com/igorjejelavaa-beep/booked/releases/download/media-v1/video-1.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
@@ -242,7 +283,7 @@
           <div class="video-card">
             <div class="video-frame">
               <video controls playsinline preload="metadata">
-                <source src="./media/video-2.mp4" type="video/mp4">
+                <source src="VIDEO_2_RELEASE_URL_HERE" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
@@ -253,7 +294,7 @@
           <div class="video-card">
             <div class="video-frame">
               <video controls playsinline preload="metadata">
-                <source src="./media/video-3.mp4" type="video/mp4">
+                <source src="VIDEO_3_RELEASE_URL_HERE" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
@@ -264,7 +305,7 @@
           <div class="video-card">
             <div class="video-frame">
               <video controls playsinline preload="metadata">
-                <source src="./media/video-4.mp4" type="video/mp4">
+                <source src="VIDEO_4_RELEASE_URL_HERE" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
@@ -275,7 +316,7 @@
           <div class="video-card">
             <div class="video-frame">
               <video controls playsinline preload="metadata">
-                <source src="./media/video-5.mp4" type="video/mp4">
+                <source src="VIDEO_5_RELEASE_URL_HERE" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
@@ -286,7 +327,7 @@
           <div class="video-card">
             <div class="video-frame">
               <video controls playsinline preload="metadata">
-                <source src="./media/video-6.mp4" type="video/mp4">
+                <source src="VIDEO_6_RELEASE_URL_HERE" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
@@ -298,12 +339,13 @@
 
         <div class="cta">
           <h2>Want videos like this?</h2>
+
           <p>
-            DM us for a free consultation and content audit. We’ll show you what to post, what to fix, and how to turn your content into more appointments.
+            DM BOOKED for a free consultation and content audit. We’ll show you what to post, what to fix, and how to turn your content into more appointments.
           </p>
 
           <a class="btn btn-primary" href="https://instagram.com/bookedlv" target="_blank" rel="noopener noreferrer">
-            DM @bookedlv for a Free Consultation
+            DM @bookedlv for a Free Content Audit
           </a>
         </div>
       </div>
